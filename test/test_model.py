@@ -52,7 +52,7 @@ class CoordinatesTest(unittest.TestCase):
             self.coordinates.__attrs_attrs__.y,
             10)
 
-    def test_validate_x_value_invalid(self):
+    def test_validate_y_value_invalid(self):
         self.\
             assertRaises(ValueError,
                          self.coordinates.__attrs_attrs__.y.validator,
@@ -60,7 +60,7 @@ class CoordinatesTest(unittest.TestCase):
                          self.coordinates.__attrs_attrs__.y,
                          2)
 
-    def test_validate_x_value_invalid_message(self):
+    def test_validate_y_value_invalid_message(self):
         with self.assertRaises(ValueError) as error:
             self.coordinates.__attrs_attrs__.y.validator(
                 self.coordinates,
