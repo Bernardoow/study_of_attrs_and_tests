@@ -3,3 +3,5 @@
 [![Coverage Status](https://coveralls.io/repos/github/Bernardoow/study_of_attrs_and_tests/badge.svg)](https://coveralls.io/github/Bernardoow/study_of_attrs_and_tests)
 
 [![Code Health](https://landscape.io/github/Bernardoow/study_of_attrs_and_tests/master/landscape.svg?style=flat)](https://landscape.io/github/Bernardoow/study_of_attrs_and_tests/master)
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4ea22a8cb6e94b669df0d09200dcc798)](https://www.codacy.com/app/Bernardoow/study_of_attrs_and_tests?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Bernardoow/study_of_attrs_and_tests&amp;utm_campaign=Badge_Grade)
