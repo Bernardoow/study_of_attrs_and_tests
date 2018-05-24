@@ -9,10 +9,10 @@ install:
   - pipenv install -d
 
 script:
-  - coverage run --source=src setup.py test
+  - pipenv shell && coverage run --source=src setup.py test
 
 after_success:
   - coveralls
 
-# env:
-#   - PIPENV_IGNORE_VIRTUALENVS=1
+env:
+  - PIPENV_IGNORE_VIRTUALENVS=1
