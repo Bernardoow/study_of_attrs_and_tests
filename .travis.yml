@@ -14,5 +14,5 @@ script:
 after_success:
   - coveralls
 
-env:
-  - PIPENV_IGNORE_VIRTUALENVS=1
+# env:
+#   - PIPENV_IGNORE_VIRTUALENVS=1
