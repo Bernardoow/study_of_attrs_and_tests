@@ -3,7 +3,7 @@
 # 
 import unittest
 
-from .models import Coordinates
+from src.models import Coordinates
 
 
 class CoordinatesTest(unittest.TestCase):
